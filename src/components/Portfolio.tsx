@@ -22,42 +22,42 @@ const projects = [
     demo: 'https://example.com',
     category: 'network'
   },
-  // {
-  //   title: 'DevOps Pipeline Automation',
-  //   description: 'Automated deployment pipeline using Jenkins, Docker, and Kubernetes for microservices architecture',
-  //   image: 'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80&w=640',
-  //   tags: ['Jenkins', 'Kubernetes', 'Docker', 'GitOps'],
-  //   github: 'https://github.com',
-  //   demo: 'https://example.com',
-  //   category: 'devops'
-  // },
-  // {
-  //   title: 'E-Commerce Mobile App',
-  //   description: 'Cross-platform mobile application built with React Native for a leading e-commerce brand',
-  //   image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=640',
-  //   tags: ['React Native', 'Redux', 'Node.js', 'MongoDB'],
-  //   github: 'https://github.com',
-  //   demo: 'https://example.com',
-  //   category: 'app'
-  // },
-  // {
-  //   title: 'Corporate Brand Identity',
-  //   description: 'Complete brand identity design including logo, guidelines, and marketing materials',
-  //   image: 'https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&q=80&w=640',
-  //   tags: ['Branding', 'Design', 'Marketing'],
-  //   github: 'https://github.com',
-  //   demo: 'https://example.com',
-  //   category: 'branding'
-  // },
-  // {
-  //   title: 'Modern Web Application',
-  //   description: 'Full-stack web application with real-time features and modern UI/UX design',
-  //   image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=640',
-  //   tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
-  //   github: 'https://github.com',
-  //   demo: 'https://example.com',
-  //   category: 'web'
-  // }
+  {
+    title: 'Maintenance Firewall',
+    description: 'ensure the firewall system is working properly',
+    image: '/assets/images/documentation/Maintenance-Firewall.jpg',
+    tags: ['Fortinet', 'Fortigate', 'Firewall', 'Network'],
+    // github: 'https://github.com',
+    // demo: 'https://example.com',
+    category: 'network'
+  },
+  {
+    title: 'Connecting LC to dwdm',
+    description: 'Connecting LC cable from another data center',
+    image: '/assets/images/documentation/AttachDWDM.jpg',
+    tags: ['DWDM', 'LC', 'Fiber Optic', 'Frequency'],
+    // github: 'https://github.com',
+    // demo: 'https://example.com',
+    category: 'network'
+  },
+  {
+    title: 'Connecting multiple devices in a new data center',
+    description: 'Preparing multiple devices, connecting multiple devices in the new data center, IDC3D building',
+    image: '/assets/images/documentation/AttachLC.jpg',
+    tags: ['Data Center', 'Rack', 'Devices'],
+    // github: 'https://github.com',
+    // demo: 'https://example.com',
+    category: 'network'
+  },
+  {
+    title: 'Connect SFP and join vlan on switch',
+    description: 'FConnect the LC cable and SFP port and configure it to join VLAN.',
+    image: '/assets/images/documentation/SFP-Configuration&Join-vlan.jpg',
+    tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+    github: 'https://github.com',
+    demo: 'https://example.com',
+    category: 'network'
+  }
 ];
 
 // Daftar kategori proyek
@@ -65,7 +65,7 @@ const categories = [
   { id: 'all', name: 'All' },
   { id: 'web', name: 'Web' },
   { id: 'network', name: 'Network' },
-  { id: 'branding', name: 'Branding' },
+  // { id: 'branding', name: 'Branding' },
   { id: 'app', name: 'App' },
   { id: 'devops', name: 'DevOps' }
 ];
@@ -80,7 +80,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Featured Projects</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Documentations</h2>
 
         {/* Kategori Filter dengan Animasi */}
         <motion.div
